@@ -12,5 +12,9 @@ It is an example only: it is not loaded by Terraform or any bootstrap script.
 | everything | Protocol test server exercising all MCP features |
 | git | Read-only-style git inspection of this repo |
 | time | Time and timezone conversion |
+| fetch | Fetches web pages and converts them to markdown |
+| playwright | Browser automation via Playwright |
+| context7 | Up-to-date library documentation lookup |
+| github | GitHub API access; token is read from the GITHUB_PERSONAL_ACCESS_TOKEN env var (placeholder only) |
 
-No credentials or tokens are included.
+No credentials or tokens are included; the github entry only references an environment variable.
